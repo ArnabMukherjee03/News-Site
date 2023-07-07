@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+<h1 align="center">MovieMafia</h1>
+<p>
+I have developed a news site using React for state management with Context API. The styling is implemented with Tailwind CSS, and the data is fetched from the NewsAPI using the Fetch method. The site includes a search feature to retrieve news articles. This project showcases my proficiency in these technologies for CV purposes.
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🍿 Features
 
-## Available Scripts
+- News Articles: The site retrieves news articles from NewsAPI, allowing users to stay updated with the latest news from various sources.
 
-In the project directory, you can run:
+- Search Functionality: Users can enter keywords or topics in the search bar to find specific news articles of interest.
 
-### `npm start`
+- Responsive Design: The site is built using React and Tailwind CSS, ensuring that it is fully responsive and can adapt to different screen sizes and devices.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Context API for State Management: The Context API in React is utilized for efficient state management, enabling seamless communication between components and maintaining a consistent user experience.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Modern UI with Tailwind CSS: The project's UI is designed using Tailwind CSS, a utility-first CSS framework that provides a streamlined and flexible approach to styling, resulting in a clean and visually appealing user interface.
+ - multipage with pagination support
+## 🍿 Technology Used
 
-### `npm test`
+- React 
+- Context API
+- Tailwind
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## 🍿 How to Run the Website on Your System
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Clone the project
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+  git clone https://github.com/ArnabMukherjee03/News-Site.git
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Go to the project directory
 
-### `npm run eject`
+```bash
+  cd News-Site
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Install dependencies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+  npm install
+```
+## Obtain the TMDB Movies API Key
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Go to https://newsapi.org/ and log in.
+- In the settings, select "API" and generate an API key.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Start the server
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+  npm run start
+```
+This will start the application. Open a web browser and navigate to http://localhost:3000 to access the website.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Screenshots
 
-### Analyzing the Bundle Size
+![App Screenshot](/Images/home.png)
+![App Screenshot](/Images/news.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
