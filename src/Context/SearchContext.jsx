@@ -15,7 +15,7 @@ const SearchProvider = ({ children }) => {
   useEffect(()=>{
     const fetchNews = async()=>{
       console.log(searchQuery);
-      const apiUrl = `https://newsapi.org/v2/everything?q=${searchQuery}&from=2023-06-20&language=en&sortBy=publishedAt&apiKey=f9aa60f4e0fc449da80dfbd2143ae128`;
+      const apiUrl = `https://newsapi.org/v2/everything?q=${searchQuery}&from=2023-07-07&language=en&sortBy=publishedAt&apiKey=f9aa60f4e0fc449da80dfbd2143ae128`;
       const response = await fetch(apiUrl);
       const data = await response.json();
      
