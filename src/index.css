@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&family=Shippori+Mincho:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Chivo', sans-serif;
+    font-weight: 700;
+    line-height: 1.1!important;
+    letter-spacing: -.5px;
+}
+
+.channel{
+    font-family: 'Chivo', sans-serif;
+    font-weight: 700;
+}
+.author{
+    font-family: "Shippori Mincho", serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+p{
+    font-family: "Shippori Mincho", serif;
+    line-height: 30px;
+}
+
+li,button{
+    list-style: none;
+    font-family: 'Chivo', sans-serif;
+}
+
+.border-color{
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+input{
+    font-family: 'Chivo', sans-serif;
+    outline: none;
+}
