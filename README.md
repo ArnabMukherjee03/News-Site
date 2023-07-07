@@ -1,7 +1,12 @@
-<h1 align="center">MovieMafia</h1>
+<h1 align="center">News.com</h1>
 <p>
 I have developed a news site using React for state management with Context API. The styling is implemented with Tailwind CSS, and the data is fetched from the NewsAPI using the Fetch method. The site includes a search feature to retrieve news articles. This project showcases my proficiency in these technologies for CV purposes.
 </p>
+
+## Screenshots
+
+![App Screenshot](/Images/home.png)
+![App Screenshot](/Images/news.png)
 
 ## 🍿 Features
 
@@ -56,9 +61,6 @@ I have developed a news site using React for state management with Context API. 
 This will start the application. Open a web browser and navigate to http://localhost:3000 to access the website.
 
 
-## Screenshots
 
-![App Screenshot](/Images/home.png)
-![App Screenshot](/Images/news.png)
 
 
