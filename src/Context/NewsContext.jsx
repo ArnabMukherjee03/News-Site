@@ -9,7 +9,7 @@ const NewsProvider = ({children})=>{
 
     useEffect(()=>{
         const fetchNews = async()=>{
-            const apiUrl = `https://newsapi.org/v2/everything?q=everything&from=2023-07-07&language=en&sortBy=publishedAt&apiKey=f9aa60f4e0fc449da80dfbd2143ae128`;
+            const apiUrl = `https://newsapi.org/v2/everything?q=everything&from=2023-07-01&language=en&sortBy=publishedAt&apiKey=f9aa60f4e0fc449da80dfbd2143ae128`;
             const response = await fetch(apiUrl);
             const data = await response.json();
            

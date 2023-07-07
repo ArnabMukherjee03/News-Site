@@ -17,7 +17,7 @@ root.render(
     <CatagoryProvider>
       <SearchProvider>
         <PaginationProvider>
-      <App />
+        <App />
         </PaginationProvider>
       </SearchProvider>
     </CatagoryProvider>
